@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Wayne's Website"
               description="This is a personal website with a front-end and back-end separation. The front-end is implemented using Vue, with an overall style inspired by the Hexo blog design. The back-end is implemented using Spring Boot, MySQL, Redis, and RabbitMQ, and includes features such as blogging, leaving messages, commenting, a chat room, a photo album, and a portfolio showcase."
-              ghLink="https://github.com/Wayne-HJ/SideProject"
+              ghLink="https://github.com/Wayne-HJ/personal-website"
               demoLink="https://blog.jianght.eu.org/"
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="Web Management Platform"
               description="This is a website management backend with a front-end and back-end separation. The front-end is implemented using Vue and Element-UI, with an overall style based on Element-Admin. The back-end is implemented using Spring Boot, MySQL, and Redis, and includes features such as article management, page management, menu configuration, user management, and access control."
-              ghLink="https://github.com/Wayne-HJ/SideProject"
+              ghLink="https://github.com/Wayne-HJ/web-management-platform"
               demoLink="https://manage.jianght.eu.org/"
             />
           </Col>
@@ -50,7 +50,7 @@ function Projects() {
               title="Personal NavPage"
               description="This is a clean and minimalistic navigation homepage built with HTML, JS, and CSS. It offers the ability to switch between search tools, provides intelligent suggestions, and includes quick tags and commonly used website navigation features."
               ghLink="https://github.com/Wayne-HJ/navweb"
-              demoLink="https://wayne-hj.github.io/navweb/"              
+              demoLink="https://navweb.vercel.app/"              
             />
           </Col>
         </Row>
