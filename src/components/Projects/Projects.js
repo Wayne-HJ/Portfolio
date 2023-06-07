@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import blog from "../../Assets/Projects/blog.png";
+import nav from "../../Assets/Projects/nav.png";
+import manage from "../../Assets/Projects/manage.png";
 
 function Projects() {
   return (
@@ -23,10 +20,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={blog}
               isBlog={false}
-              title="Wayne's Website"
-              description="This is a personal website with a front-end and back-end separation. The front-end is implemented using Vue, with an overall style inspired by the Hexo blog design. The back-end is implemented using Spring Boot, MySQL, Redis, and RabbitMQ, and includes features such as blogging, leaving messages, commenting, a chat room, a photo album, and a portfolio showcase."
+              title="Personal Website"
+              description="With a focus on front-end and back-end separation, using Vue, I've created a visually captivating interface inspired by the sleek design of Hexo blogs. The back-end, powered by Spring Boot, MySQL, Redis, and RabbitMQ, ensures robust data handling and seamless communication.Explore my website's features: engaging blog posts, interactive commenting, real-time chat room, organized photo albums, and a portfolio showcasing my achievements."
               ghLink="https://github.com/Wayne-HJ/personal-website"
               demoLink="https://blog.jianght.eu.org/"
             />
@@ -34,10 +31,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={manage}
               isBlog={false}
-              title="Web Management Platform"
-              description="This is a website management backend with a front-end and back-end separation. The front-end is implemented using Vue and Element-UI, with an overall style based on Element-Admin. The back-end is implemented using Spring Boot, MySQL, and Redis, and includes features such as article management, page management, menu configuration, user management, and access control."
+              title="Website Management System"
+              description="In this project the front-end is developed using Vue and Element-UI, leveraging the aesthetic elements of Element-Admin for an appealing user interface. On the other hand, the back-end is built upon Spring Boot, MySQL, and Redis, offering robust functionality including article and page management, menu configuration, user administration, and advanced access control capabilities.I employed best practices such as modularization, separation of concerns, and reusable components to ensure the project's long-term sustainability."
               ghLink="https://github.com/Wayne-HJ/web-management-platform"
               demoLink="https://manage.jianght.eu.org/"
             />
@@ -45,10 +42,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={nav}
               isBlog={false}
-              title="Personal NavPage"
-              description="This is a clean and minimalistic navigation homepage built with HTML, JS, and CSS. It offers the ability to switch between search tools, provides intelligent suggestions, and includes quick tags and commonly used website navigation features."
+              title="Convenient Navigation Page"
+              description="Built with HTML, JS, and CSS. Designed with simplicity and functionality in mind, this project showcases my skills and achievements in web development.The navigation homepage offers a seamless user experience, allowing easy switching between search tools and providing intelligent suggestions. With quick tags and commonly used website navigation features, visitors can effortlessly navigate through the content."
               ghLink="https://github.com/Wayne-HJ/navweb"
               demoLink="https://navweb.vercel.app/"              
             />
