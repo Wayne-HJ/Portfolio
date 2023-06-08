@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Wayne Jiang </span>
-            from <span className="purple"> Liaoning, China.</span>
+            from <span className="purple"> Liaoning, China, </span>now live in <span className="purple">Sydney</span>
             <br /> I am a Full Stack Engineer with two years of experience in the field.
             {/* <br /> */}
             {/* Additionally, I am currently employed as a software developer at
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Watching movies
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
