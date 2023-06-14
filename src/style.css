@@ -615,7 +615,9 @@ button:focus {
   padding-bottom: 50px;
   justify-content: center;
 }
-
+.resume .doc-bottom{
+  margin-bottom: 20px;
+}
 .resume-left {
   padding-right: 80px !important;
 }
