@@ -2,8 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
-  DiReact,
   DiNodejs,
+  DiReact,
   DiPython,
   DiGit,
   DiDocker,
@@ -30,9 +30,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
@@ -45,9 +45,9 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiNginx/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-      </Col>
+      </Col> */}
      
     </Row>
   );
