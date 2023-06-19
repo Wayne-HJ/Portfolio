@@ -33,9 +33,9 @@ function Projects() {
             <ProjectCard
               imgPath={manage}
               isBlog={false}
-              title="Website Management System"
+              title="Web Admin"
               description="In this project the front-end is developed using Vue and Element-UI, leveraging the aesthetic elements of Element-Admin for an appealing user interface. On the other hand, the back-end is built upon Spring Boot, MySQL, and Redis, offering robust functionality including article and page management, menu configuration, user administration, and advanced access control capabilities.I employed best practices such as modularization, separation of concerns, and reusable components to ensure the project's long-term sustainability."
-              ghLink="https://github.com/Wayne-HJ/web-management-platform"
+              ghLink="https://github.com/Wayne-HJ/vue-web-admin"
               demoLink="https://manage.jianght.eu.org/"
             />
           </Col>
